@@ -21,3 +21,20 @@ scratch/
 .ipynb_checkpoints/
 *.log
 ~$*
+
+# OS and system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LangGraph and LangChain generated state
+.langgraph_api/
+*.pckl
+
+# Local database and vector index run caches
+*.sqlite3
+*.sqlite3-journal
+chroma_db/
+faiss_index/
+output/
+
