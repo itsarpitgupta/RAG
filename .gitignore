@@ -35,6 +35,9 @@ desktop.ini
 *.sqlite3
 *.sqlite3-journal
 chroma_db/
+**/chroma_db/
 faiss_index/
+**/faiss_index/
 output/
+
 
