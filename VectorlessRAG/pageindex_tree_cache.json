@@ -1,0 +1,292 @@
+[
+  {
+    "title": "Preface",
+    "node_id": "0000",
+    "page_index": 1,
+    "summary": "This document outlines the comprehensive syllabus for the 'Advanced Route of Learning AI' course offered by Krish Naik Academy for the 2025-2026 cohort. The curriculum spans 21 modules, covering foundational topics like Neural Networks and Transformers, progressing to advanced concepts such as Scaling Laws, Mixture of Experts (MoE), and extensive LLM fine-tuning techniques (including PEFT, SFT, and post-training stacks). It also delves into specialized areas like Reasoning Models, SLMs, Hybrid Architectures (SSMs, Mamba, RWKV), Vision and Visual Language Models, Diffusion Transformers, Embeddings, Retrieval Augmented Generation (RAG) with multi-modal and security aspects, Context Engineering, DSPy for programmatic LLM optimization, Agents, and Reinforcement Learning (RL). The syllabus includes hardware considerations, tokenization, KV cache, attention variants, positional encodings, and knowledge distillation.",
+    "text": "ADVANCED ROUTE OF\nLEARNING AI\nComprehensive Syllabus\nFrom Neural Networks &amp; Transformers through Scaling Laws, MoE, LLM Fine-Tuning, Reasoning Models, SLMs, Hybrid Architectures, Vision &amp; VLMs, Diffusion Transformers, Embeddings, RAG, Context Engineering, DSPy, Agents, and Reinforcement Learning\n\nKRISH NAIK ACADEMY\n21 Modules | 38 Sections | 481 Topics\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\nTable of Contents\n\nModule 1 Neural Network Refresher\n\nModule 2 Hardware\n\nModule 3 Transformers 101\n\nModule 4 Tokenization Deep Dive\n- Beyond Tokenization \u2014 Byte Latent Transformers and Token-Free Models\n\nModule 5 Finetuning Transformer Architectures\n\nModule 6 KV Cache &amp; Attention Variants &amp; Positional Encodings\n\nModule 7 Scaling Laws\n\nModule 8 Mixture of Experts\n- Mixture of Depths\n\nModule 9 Modern LLMs Finetuning\n- The LLM Development Lifecycle\n- Pre-Training Deep Dive\n- Data Preparation for Fine-Tuning\n- Parameter-Efficient Fine-Tuning (PEFT)\n- Supervised Fine-Tuning (SFT)\n- Preference Alignment\n- The Modern Post-Training Stack\n- Evaluation\n- Quantization &amp; Deployment Prep\n- Tooling &amp; Frameworks\n- Synthetic Dataset Generation\n- Reasoning Models\n\nModule 10 SLM\n\nModule 11 Knowledge Distillation\n\nModule 12 Hybrid Architectures \u2014 SSMs, Mamba, RWKV &amp; Beyond Transformers\n\nModule 13 Vision Foundations\n\nModule 14 Visual Language Models\n\nModule 15 Stable Diffusion &amp; Diffusion Transformers\n\nModule 16 Embedding models\n\nModule 17 RAG\n- Vector Quantizations Scaling\n- Multi-modal RAG\n- Securing RAG\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\nModule 18 Prompt Engineering vs Context Engineering\nModule 19 DSPy \u2014 Programmatic LLM Optimization\nModule 20 Agents\nModule 21 RL\n\nKrish Naik Academy\nPage 3\n"
+  },
+  {
+    "title": "MODULE 1",
+    "node_id": "0001",
+    "page_index": 4,
+    "summary": "# MODULE 1\n",
+    "text": "# MODULE 1\n"
+  },
+  {
+    "title": "Neural Network Refresher",
+    "node_id": "0002",
+    "page_index": 4,
+    "summary": "# Neural Network Refresher\n\nBuild a rock-solid foundation in neural network theory and PyTorch implementation, covering the mathematical underpinnings every advanced AI practitioner must master.\n\nNeural Network Refresher\n\n- Neural networks and the Universal Approximation Theorem\n- Forward propagation\n- Backward propagation\n- Activations &amp; Loss Functions\n- Optimizers\n- Foundations of Pytorch\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 2\n",
+    "text": "# Neural Network Refresher\n\nBuild a rock-solid foundation in neural network theory and PyTorch implementation, covering the mathematical underpinnings every advanced AI practitioner must master.\n\nNeural Network Refresher\n\n- Neural networks and the Universal Approximation Theorem\n- Forward propagation\n- Backward propagation\n- Activations &amp; Loss Functions\n- Optimizers\n- Foundations of Pytorch\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 2\n"
+  },
+  {
+    "title": "Hardware",
+    "node_id": "0003",
+    "page_index": 5,
+    "summary": "# Hardware\n\nUnderstand the hardware landscape powering modern AI and learn how embeddings bridge discrete tokens to continuous vector spaces.\n\nHardware\n\n- GPUs, TPUs, and Apple Silicon\n- Embeddings : From Discrete to Continuous Space\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 3\n",
+    "text": "# Hardware\n\nUnderstand the hardware landscape powering modern AI and learn how embeddings bridge discrete tokens to continuous vector spaces.\n\nHardware\n\n- GPUs, TPUs, and Apple Silicon\n- Embeddings : From Discrete to Continuous Space\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 3\n"
+  },
+  {
+    "title": "Transformers 101",
+    "node_id": "0004",
+    "page_index": 6,
+    "summary": "# Transformers 101\n\nMaster the Transformer architecture from the ground up \u2014 every variant of attention, positional encoding, and the encoder-decoder paradigm that underpins all modern LLMs.\n\nTransformers 101\n\n- Embeddings : From Discrete to Continuous Space\n- The Attention Mechanism\n- Self Attention\n- Multihead Attention\n- Masked Multihead Attention\n- Positional Encoding\n- Encoder-Decoder Transformers\n- Encoder-Only Transformers\n- Decoder-Only Transformers\n- Cross-attention\n\nKrish Naik Academy\nPage 6\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 4\n",
+    "text": "# Transformers 101\n\nMaster the Transformer architecture from the ground up \u2014 every variant of attention, positional encoding, and the encoder-decoder paradigm that underpins all modern LLMs.\n\nTransformers 101\n\n- Embeddings : From Discrete to Continuous Space\n- The Attention Mechanism\n- Self Attention\n- Multihead Attention\n- Masked Multihead Attention\n- Positional Encoding\n- Encoder-Decoder Transformers\n- Encoder-Only Transformers\n- Decoder-Only Transformers\n- Cross-attention\n\nKrish Naik Academy\nPage 6\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 4\n"
+  },
+  {
+    "title": "Tokenization Deep Dive",
+    "node_id": "0005",
+    "page_index": 7,
+    "summary": "This text provides a deep dive into tokenization strategies, covering classical methods like BPE and WordPiece, as well as advanced token-free approaches such as Byte Latent Transformers. It details the taxonomy of tokenization (word, subword, character, byte levels) and specific algorithms (Byte pair coding, Word piece, Sentence piece). The text then explores the limitations of traditional tokenizers and introduces Byte Latent Transformers, explaining their byte-level concept, architecture (including the entropy-based patching mechanism and three-component design: Local Encoder, Latent Global Transformer, Local Decoder), and a new scaling dimension. Finally, it compares tokenization with BLT. The content is presented as part of Krish Naik Academy's Advanced Route of Learning AI for the 2025-2026 Cohort, specifically within Module 5.",
+    "text": "# Tokenization Deep Dive\n\nExplore tokenization strategies in depth, from classical BPE and WordPiece to cutting-edge Byte Latent Transformers that eliminate tokenization entirely.\n\nTokenization Deep Dive\n\n- Taxonomy of Tokenization\n- Word level, Subword, Character level, Byte level\n- Byte pair coding\n- Word piece\n- Sentence piece\n\n## Beyond Tokenization \u2014 Byte Latent Transformers and Token-Free Models\n\n- The Problem with Every Tokenizer\n- The Byte-Level Idea\n- Byte Latent Transformers \u2014 Architecture\n- The Entropy-Based Patching Mechanism\n- The Three-Component Architecture\n- Local Encoder \u2014 Bytes to Patches\n- Latent Global Transformer\n- Local Decoder \u2014 Patches Back to Bytes\n- The New Scaling Dimension\n- Tokenization vs BLT\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n### MODULE 5\n"
+  },
+  {
+    "title": "Finetuning Transformer Architectures",
+    "node_id": "0006",
+    "page_index": 8,
+    "summary": "# Finetuning Transformer Architectures\n\nHands-on fine-tuning of encoder, decoder, and encoder-decoder transformers on custom datasets using PyTorch and Hugging Face.\n\nFinetuning Transformer Architectures\n\n- Coding Attention Mechanisms\n- Finetuning DistillBERT with Custom Data\n- Finetuning DistillGPT with Custom Data\n- Finetuning T5 with Custom Data\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 6\n",
+    "text": "# Finetuning Transformer Architectures\n\nHands-on fine-tuning of encoder, decoder, and encoder-decoder transformers on custom datasets using PyTorch and Hugging Face.\n\nFinetuning Transformer Architectures\n\n- Coding Attention Mechanisms\n- Finetuning DistillBERT with Custom Data\n- Finetuning DistillGPT with Custom Data\n- Finetuning T5 with Custom Data\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 6\n"
+  },
+  {
+    "title": "KV Cache &amp; Attention Variants &amp; Positional Encodings",
+    "node_id": "0007",
+    "page_index": 9,
+    "summary": "This text provides a deep dive into KV caching, Flash Attention, various attention variants (MHA, MQA, GQA, MLA, SWA, DSA, Gated, Hybrid), positional encoding schemes (RoPE, ALiBi, NoPE), and inference acceleration techniques. It covers the naive decoding problem, KV cache memory calculations, Flash Attention optimizations like WGMMA, TMA, and ping-pong scheduling, PyTorch's unified attention API (SDPA), PagedAttention and vLLM, and Linear Attention theory. The content is presented as part of Module 7 for the Krish Naik Academy's 2025-2026 Advanced Route of Learning AI cohort.",
+    "text": "# KV Cache &amp; Attention Variants &amp; Positional Encodings\n\nDeep dive into KV caching, Flash Attention, every major attention variant (MHA, MQA, GQA, MLA, SWA), positional encoding schemes, and inference acceleration.\n\nKV Cache &amp; Attention Variants &amp; Positional Encodings\n\n- The Naive Decoding Problem\n- KV Cache\n- KV Cache Memory Math\n- Flash Attention\n- WGMMA, TMA, ping-pong scheduling\n- PyTorch SDPA \u2014 The Unified Attention API\n- Attention Variants\n- Multi-Head Attention (MHA)\n- Multi-Query Attention (MQA)\n- Grouped-Query Attention (GQA)\n- Multi-Head Latent Attention (MLA)\n- Sliding Window Attention (SWA)\n- DeepSeek Sparse Attention (DSA)\n- PagedAttention &amp; vLLM\n- Gated Attention\n- Hybrid Attention\n- Positional Encoding Schemes\n- RoPE, ALiBi, NoPE\n- Linear Attention Theory\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 7\n"
+  },
+  {
+    "title": "Scaling Laws",
+    "node_id": "0008",
+    "page_index": 10,
+    "summary": "# Scaling Laws\n\nStudy the empirical scaling laws that govern LLM training \u2014 Kaplan and Chinchilla papers \u2014 to understand compute-optimal model design.\n\nScaling Laws\n\n- Scaling Laws for Neural Language Models\n- Training Compute-Optimal Large Language Models\n- Chinchilla Scaling Laws\n\nKrish Naik Academy\nPage 10\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 8\n",
+    "text": "# Scaling Laws\n\nStudy the empirical scaling laws that govern LLM training \u2014 Kaplan and Chinchilla papers \u2014 to understand compute-optimal model design.\n\nScaling Laws\n\n- Scaling Laws for Neural Language Models\n- Training Compute-Optimal Large Language Models\n- Chinchilla Scaling Laws\n\nKrish Naik Academy\nPage 10\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 8\n"
+  },
+  {
+    "title": "Mixture of Experts",
+    "node_id": "0009",
+    "page_index": 11,
+    "summary": "The text covers Mixture of Experts (MoE) and Mixture of Depths (MoD) architectures, explaining how sparse computation enables efficient trillion-parameter models. It details the dense model scaling problem, the MoE concept, its architecture, load balancing, training, inference, variants, production use, comparison with dense models, and fine-tuning. For MoD, it discusses the problem it solves, its routing mechanism, FLOPs reduction, token routing budget, router learning, isoFLOP comparison, and the combination of MoD and MoE. The content is presented as part of the Krish Naik Academy's 2025-2026 Cohort, Module 9.",
+    "text": "# Mixture of Experts\n\nExplore Mixture of Experts and Mixture of Depths architectures \u2014 how sparse computation enables trillion-parameter models to run efficiently.\n\nMixture of Experts\n\n- The Dense Model Scaling Problem\n- The MoE Idea\n- Architecture Deep Dive\n- Load Balancing\n- Training MoE Models\n- Inference with MoE\n- MoE Variants\n- Production MoE Models\n- MoE vs Dense: When to Use Each\n- Fine-Tuning MoE Models\n\n## Mixture of Depths\n\n- The problem MoD solves\n- The routing mechanism\n- The math: FLOPs reduction\n- Token routing budget\n- Training: how the router learns\n- The isoFLOP comparison\n- MoD + MoE: combining both axes\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n### MODULE 9\n"
+  },
+  {
+    "title": "Modern LLMs Finetuning",
+    "node_id": "0010",
+    "page_index": 12,
+    "prefix_summary": "# Modern LLMs Finetuning\n\nThe comprehensive modern LLM fine-tuning stack: pre-training, data preparation, PEFT, SFT, preference alignment, evaluation, quantization, tooling, and synthetic data generation.\n\nModern LLMs Finetuning\n",
+    "text": "# Modern LLMs Finetuning\n\nThe comprehensive modern LLM fine-tuning stack: pre-training, data preparation, PEFT, SFT, preference alignment, evaluation, quantization, tooling, and synthetic data generation.\n\nModern LLMs Finetuning\n",
+    "nodes": [
+      {
+        "title": "The LLM Development Lifecycle",
+        "node_id": "0011",
+        "page_index": 12,
+        "summary": "## The LLM Development Lifecycle\n\n- Pre-training vs Post-training \u2014 the two-phase view\n- What pre-training produces (base model)\n- Why base models are not useful out of the box\n- The gap fine-tuning closes\n- Training objectives recap: CLM, MLM, Prefix-LM\n",
+        "text": "## The LLM Development Lifecycle\n\n- Pre-training vs Post-training \u2014 the two-phase view\n- What pre-training produces (base model)\n- Why base models are not useful out of the box\n- The gap fine-tuning closes\n- Training objectives recap: CLM, MLM, Prefix-LM\n"
+      },
+      {
+        "title": "Pre-Training Deep Dive",
+        "node_id": "0012",
+        "page_index": 12,
+        "summary": "## Pre-Training Deep Dive\n\n- Data curation and filtering at scale\n- Continued Pre-Training (CPT) for domain adaptation\n- The compute budget problem (links back to Scaling Laws)\n- When CPT is needed vs. jumping straight to SFT\n- Multi-Token Prediction (MTP)\n- The Problem with Next-Token Prediction\n- Architecture: Shared Trunk, Separate Heads\n- Why MTP Improves Training\n- Denser gradient signal\n- Richer representations\n- Inference Benefit: Speculative Decoding for Free\n",
+        "text": "## Pre-Training Deep Dive\n\n- Data curation and filtering at scale\n- Continued Pre-Training (CPT) for domain adaptation\n- The compute budget problem (links back to Scaling Laws)\n- When CPT is needed vs. jumping straight to SFT\n- Multi-Token Prediction (MTP)\n- The Problem with Next-Token Prediction\n- Architecture: Shared Trunk, Separate Heads\n- Why MTP Improves Training\n- Denser gradient signal\n- Richer representations\n- Inference Benefit: Speculative Decoding for Free\n"
+      },
+      {
+        "title": "Data Preparation for Fine-Tuning",
+        "node_id": "0013",
+        "page_index": 12,
+        "summary": "## Data Preparation for Fine-Tuning\n\n- Dataset formats (instruction pairs, chat format)\n- Chat templates: ChatML, LLaMA-3, Mistral\n- Loss masking \u2014 why it matters, what breaks without it\n- Quality vs. quantity tradeoff\n- Deduplication and filtering pipelines\n\nKrish Naik Academy\nPage 12\n\nKrish Naik Academy | Advanced Route of Learning AI\n\n2025-2026 Cohort\n\nSynthetic data generation (self-instruct, Alpaca-style)\n",
+        "text": "## Data Preparation for Fine-Tuning\n\n- Dataset formats (instruction pairs, chat format)\n- Chat templates: ChatML, LLaMA-3, Mistral\n- Loss masking \u2014 why it matters, what breaks without it\n- Quality vs. quantity tradeoff\n- Deduplication and filtering pipelines\n\nKrish Naik Academy\nPage 12\n\nKrish Naik Academy | Advanced Route of Learning AI\n\n2025-2026 Cohort\n\nSynthetic data generation (self-instruct, Alpaca-style)\n"
+      },
+      {
+        "title": "Parameter-Efficient Fine-Tuning (PEFT)",
+        "node_id": "0014",
+        "page_index": 13,
+        "summary": "## Parameter-Efficient Fine-Tuning (PEFT)\n\nThe intrinsic dimensionality insight\nLoRA \u2014 math, rank, alpha, target modules\nQLoRA \u2014 4-bit NF4, double quantization, paged optimizers\nDoRA \u2014 magnitude + direction decomposition\nAdaLoRA \u2014 adaptive rank allocation\nLoRA+ \u2014 separate learning rates for A and B\nGaLore \u2014 gradient low-rank projection\nVeRA / VB-LoRA \u2014 vector bank sharing\nAdapter Tuning \u2014 sequential vs parallel\nPrefix Tuning &amp; Prompt Tuning\nSpectrum \u2014 SNR-based layer selection\nReFT \u2014 representation fine-tuning\n",
+        "text": "## Parameter-Efficient Fine-Tuning (PEFT)\n\nThe intrinsic dimensionality insight\nLoRA \u2014 math, rank, alpha, target modules\nQLoRA \u2014 4-bit NF4, double quantization, paged optimizers\nDoRA \u2014 magnitude + direction decomposition\nAdaLoRA \u2014 adaptive rank allocation\nLoRA+ \u2014 separate learning rates for A and B\nGaLore \u2014 gradient low-rank projection\nVeRA / VB-LoRA \u2014 vector bank sharing\nAdapter Tuning \u2014 sequential vs parallel\nPrefix Tuning &amp; Prompt Tuning\nSpectrum \u2014 SNR-based layer selection\nReFT \u2014 representation fine-tuning\n"
+      },
+      {
+        "title": "Supervised Fine-Tuning (SFT)",
+        "node_id": "0015",
+        "page_index": 13,
+        "summary": "## Supervised Fine-Tuning (SFT)\n\nSFT as Stage 1 of every post-training pipeline\nInstruction tuning (FLAN, Alpaca, OpenHermes)\nChat / conversational fine-tuning\nChain-of-Thought fine-tuning\nDomain-specific fine-tuning best practices\n",
+        "text": "## Supervised Fine-Tuning (SFT)\n\nSFT as Stage 1 of every post-training pipeline\nInstruction tuning (FLAN, Alpaca, OpenHermes)\nChat / conversational fine-tuning\nChain-of-Thought fine-tuning\nDomain-specific fine-tuning best practices\n"
+      },
+      {
+        "title": "Preference Alignment",
+        "node_id": "0016",
+        "page_index": 13,
+        "summary": "## Preference Alignment\n\nWhy SFT alone is not enough\nRLHF with PPO \u2014 reward model, critic, KL penalty\nDPO \u2014 direct optimization, no reward model\nORPO \u2014 single-stage, zero dependencies\nSimPO \u2014 reference-free, length-normalized\nKTO \u2014 unpaired preference data\nCPO \u2014 contrastive, fixes DPO degeneration\nRLAIF\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n\n2025-2026 Cohort\n",
+        "text": "## Preference Alignment\n\nWhy SFT alone is not enough\nRLHF with PPO \u2014 reward model, critic, KL penalty\nDPO \u2014 direct optimization, no reward model\nORPO \u2014 single-stage, zero dependencies\nSimPO \u2014 reference-free, length-normalized\nKTO \u2014 unpaired preference data\nCPO \u2014 contrastive, fixes DPO degeneration\nRLAIF\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n\n2025-2026 Cohort\n"
+      },
+      {
+        "title": "The Modern Post-Training Stack",
+        "node_id": "0017",
+        "page_index": 14,
+        "summary": "## The Modern Post-Training Stack\n\nFull pipeline: CPT  $\\rightarrow$  SFT  $\\rightarrow$  Alignment  $\\rightarrow$  RL\nWhat each stage changes in the model\nThe 2026 standard recipe\nWhat changed from the old RLHF-only paradigm\n",
+        "text": "## The Modern Post-Training Stack\n\nFull pipeline: CPT  $\\rightarrow$  SFT  $\\rightarrow$  Alignment  $\\rightarrow$  RL\nWhat each stage changes in the model\nThe 2026 standard recipe\nWhat changed from the old RLHF-only paradigm\n"
+      },
+      {
+        "title": "Evaluation",
+        "node_id": "0018",
+        "page_index": 14,
+        "summary": "## Evaluation\n\nWhy evaluation is part of the fine-tuning workflow\nBenchmark types: knowledge, reasoning, instruction-following\nLLM-as-judge: MT-Bench, Chatbot Arena\nDomain-specific evaluation design\nRAGAS and DeepEval for RAG pipelines\nDetecting overfitting and capability regression\n",
+        "text": "## Evaluation\n\nWhy evaluation is part of the fine-tuning workflow\nBenchmark types: knowledge, reasoning, instruction-following\nLLM-as-judge: MT-Bench, Chatbot Arena\nDomain-specific evaluation design\nRAGAS and DeepEval for RAG pipelines\nDetecting overfitting and capability regression\n"
+      },
+      {
+        "title": "Quantization &amp; Deployment Prep",
+        "node_id": "0019",
+        "page_index": 14,
+        "summary": "## Quantization &amp; Deployment Prep\n\nGPTQ, AWQ, BNB NF4, FP8\nMerging LoRA adapters before serving\nInference frameworks: vLLM, SGLang, LMDeploy\nServing multiple LoRA adapters from one base model\nGGUF format\nllama.cpp\nMLC-LLM for WebGPU/mobile\nSpeculative Decoding &amp; Inference\n",
+        "text": "## Quantization &amp; Deployment Prep\n\nGPTQ, AWQ, BNB NF4, FP8\nMerging LoRA adapters before serving\nInference frameworks: vLLM, SGLang, LMDeploy\nServing multiple LoRA adapters from one base model\nGGUF format\nllama.cpp\nMLC-LLM for WebGPU/mobile\nSpeculative Decoding &amp; Inference\n"
+      },
+      {
+        "title": "Tooling &amp; Frameworks",
+        "node_id": "0020",
+        "page_index": 14,
+        "summary": "## Tooling &amp; Frameworks\n\nHuggingFace TRL \u2014 SFT, DPO, GRPO, ORPO\nUnsloth \u2014 consumer GPU optimization\nAxolotl \u2014 full YAML configurability\nLLaMA-Factory \u2014 no-code web UI\nms-swift v4.0 \u2014 GRPO family, MoE, 600+ models\nTogether AI / AWS SageMaker \u2014 managed fine-tuning\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n",
+        "text": "## Tooling &amp; Frameworks\n\nHuggingFace TRL \u2014 SFT, DPO, GRPO, ORPO\nUnsloth \u2014 consumer GPU optimization\nAxolotl \u2014 full YAML configurability\nLLaMA-Factory \u2014 no-code web UI\nms-swift v4.0 \u2014 GRPO family, MoE, 600+ models\nTogether AI / AWS SageMaker \u2014 managed fine-tuning\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n"
+      },
+      {
+        "title": "Synthetic Dataset Generation",
+        "node_id": "0021",
+        "page_index": 15,
+        "summary": "## Synthetic Dataset Generation\n\n- Why Data Is the Leverage Point\n- The Taxonomy of Synthetic Data\n- Instruction Dataset Generation\n- Self-Instruct\n- Alpaca: Scaling Self-Instruct\n- Evol-Instruct: Complexity Evolution\n- Persona-Driven Generation\n- Preference Dataset Generation\n- RLAIF and Constitutional AI\n- LLM-as-Judge\n- Arena-Style Ranking\n- Domain-Specific Dataset Pipelines\n- Document-Grounded QA\n- Code Datasets\n- Math and Reasoning Datasets\n- Quality Control\n- Perplexity Filtering\n- Deduplication\n- LLM-as-Judge Scoring\n- Diversity Metrics\n- Tools: distilabel, DataDreamer, Argilla\n- Risks: Model Collapse and Data Poisoning\n- End-to-End Pipeline: Building a Domain SFT Dataset\n",
+        "text": "## Synthetic Dataset Generation\n\n- Why Data Is the Leverage Point\n- The Taxonomy of Synthetic Data\n- Instruction Dataset Generation\n- Self-Instruct\n- Alpaca: Scaling Self-Instruct\n- Evol-Instruct: Complexity Evolution\n- Persona-Driven Generation\n- Preference Dataset Generation\n- RLAIF and Constitutional AI\n- LLM-as-Judge\n- Arena-Style Ranking\n- Domain-Specific Dataset Pipelines\n- Document-Grounded QA\n- Code Datasets\n- Math and Reasoning Datasets\n- Quality Control\n- Perplexity Filtering\n- Deduplication\n- LLM-as-Judge Scoring\n- Diversity Metrics\n- Tools: distilabel, DataDreamer, Argilla\n- Risks: Model Collapse and Data Poisoning\n- End-to-End Pipeline: Building a Domain SFT Dataset\n"
+      },
+      {
+        "title": "Reasoning Models",
+        "node_id": "0022",
+        "page_index": 15,
+        "summary": "## Reasoning Models\n\n- What Is a Reasoning Model?\n- Chain-of-Thought: The Foundation\n- The Training Recipe\n- DeepSeek-R1-Zero: Skipping SFT Entirely\n- Distillation: Reasoning Without RL\n- Test-Time Compute Scaling\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n### MODULE 10\n",
+        "text": "## Reasoning Models\n\n- What Is a Reasoning Model?\n- Chain-of-Thought: The Foundation\n- The Training Recipe\n- DeepSeek-R1-Zero: Skipping SFT Entirely\n- Distillation: Reasoning Without RL\n- Test-Time Compute Scaling\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n### MODULE 10\n"
+      }
+    ]
+  },
+  {
+    "title": "SLM",
+    "node_id": "0023",
+    "page_index": 16,
+    "summary": "# SLM\n\nUnderstand Small Language Models \u2014 design philosophy, distillation, pruning, quantization, and when to choose SLMs over LLMs for production deployment.\n\nSLM\n\n- What Is a Small Language Model?\n- Why SLMs Matter\n- The SLM Design Philosophy\n- Key Techniques for Building SLMs\n- Knowledge Distillation\n- Pruning\n- Quantization\n- Architecture Efficiency\n- Hybrid Architectures &amp; Liquid Foundation Models\n- Training SLMs from Scratch\n- Fine-Tuning SLMs\n- Reasoning in SLMs\n- SLM Evaluation\n- SLM vs LLM: Choosing the Right Scale\n\nKrish Naik Academy\nPage 16\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 11\n",
+    "text": "# SLM\n\nUnderstand Small Language Models \u2014 design philosophy, distillation, pruning, quantization, and when to choose SLMs over LLMs for production deployment.\n\nSLM\n\n- What Is a Small Language Model?\n- Why SLMs Matter\n- The SLM Design Philosophy\n- Key Techniques for Building SLMs\n- Knowledge Distillation\n- Pruning\n- Quantization\n- Architecture Efficiency\n- Hybrid Architectures &amp; Liquid Foundation Models\n- Training SLMs from Scratch\n- Fine-Tuning SLMs\n- Reasoning in SLMs\n- SLM Evaluation\n- SLM vs LLM: Choosing the Right Scale\n\nKrish Naik Academy\nPage 16\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 11\n"
+  },
+  {
+    "title": "Knowledge Distillation",
+    "node_id": "0024",
+    "page_index": 17,
+    "summary": "This text provides a comprehensive overview of Knowledge Distillation, covering fundamental concepts like the student-teacher paradigm, the nature of knowledge, and different distillation techniques. It details response-based distillation using soft labels, including temperature scaling and KL divergence loss, as well as feature-based distillation with hint layers and attention transfer, exemplified by DistilBERT and TinyBERT. The text also explores relation-based distillation, black-box LLM distillation (including Orca, DeepSeek-R1, MiniLLM, and NVIDIA Minitron), white-box distillation, and sequence-level KD. A practical guide to building a distillation pipeline is presented, along with the concept of cross-architecture and cross-task distillation. The content is associated with Krish Naik Academy.",
+    "text": "# Knowledge Distillation\n\nMaster knowledge distillation from soft labels to black-box LLM distillation, including DeepSeek-R1, MiniLLM, NVIDIA Minitron, and end-to-end pipeline design.\n\nKnowledge Distillation\n\n- The Student-Teacher Paradigm\n- The Core Problem: What Is Knowledge?\n- Response-Based Distillation \u2014 Soft Labels\n- Hard Labels vs Soft Labels\n- Temperature Scaling\n- The KL Divergence Loss\n- The Combined Training Objective\n- Feature-Based Distillation \u2014 Intermediate Representations\n- Hint Layers (FitNets)\n- Attention Transfer\n- DistilBERT and TinyBERT\n- Relation-Based Distillation\n- Black-Box LLM Distillation\n- Data-Based Distillation\n- Orca: Learning from Explanation Traces\n- DeepSeek-R1 Distillation\n- White-Box Distillation for LLMs\n- Sequence-Level KD\n- MiniLLM: Reverse KL Divergence\n- NVIDIA Minitron: Pruning + Distillation\n- Building a Distillation Pipeline\n- Step 1: Teacher Data Generation\n- Step 2: Student Architecture Design\n- Step 3: Training the Student\n- Step 4: Evaluation\n- Cross-Architecture and Cross-Task Distillation\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n"
+  },
+  {
+    "title": "Hybrid Architectures \u2014 SSMs, Mamba, RWKV &amp; Beyond Transformers",
+    "node_id": "0025",
+    "page_index": 18,
+    "prefix_summary": "This document explores hybrid AI architectures that go beyond traditional Transformers, focusing on State Space Models (SSMs), Mamba, and RWKV. It details the limitations of Transformers due to complexity, introduces the mathematical foundations of SSMs, and explains why early SSMs struggled with language tasks. Mamba is presented as a selective SSM with input-dependent parameters and a hardware-aware parallel scan, offering $O(n)$ performance and future iterations like Mamba-2 and Mamba-3. RWKV is described as an RNN-Transformer hybrid utilizing a dual-mode approach for training and inference, with its version history and key components outlined. The text then compares Mamba and RWKV, presenting performance benchmarks. It delves into hybrid architectures in general, highlighting their design philosophy and the continued relevance of pure SSMs. Specific hybrid models like Jamba (Transformer + Mamba + MoE) and Kimi (Linear Attention, KDA, 3:1 Hybrid Ratio) are discussed, along with NVIDIA's Nemotron-H and Nemotron 3 (Hybrid MoE). Finally, it touches upon routing trade-offs and other hybrid models like Zamba and Bamba.",
+    "text": "# Hybrid Architectures \u2014 SSMs, Mamba, RWKV &amp; Beyond Transformers\n\nGo beyond Transformers with State Space Models, Mamba, RWKV, and production hybrid architectures like Jamba, Kimi, and NVIDIA Nemotron.\n\nHybrid Architectures \u2014 SSMs, Mamba, RWKV &amp; Beyond Transformers\n\n- Why Transformers Hit a Wall \u2014 The Complexity Problem\n- State Space Models \u2014 The Mathematical Foundation\n- Classical SSMs: Linear Time-Invariant Systems\n- The Selectivity Gap \u2014 Why Early SSMs Failed at Language\n- Mamba \u2014 Selective State Space Models\n- The Core Idea: Input-Dependent Parameters\n- Hardware-Aware Parallel Scan\n- The Mamba Block Architecture\n- Performance:  $O(n)$  vs  $O(n^{2})$\n- Mamba-2: Structured State Space Duality (ICML 2024)\n- Mamba-3: Inference-First Design (ICLR 2026)\n- Implementing Mamba in Practice\n- RWKV \u2014 RNN-Transformer Hybrid\n- The Dual-Mode Insight: Train as Transformer, Infer as RNN\n- The Four Vectors: R, W, K, V\n- Version History: RWKV-4 through RWKV-7 \"Goose\"\n- RWKV-7 \"Goose\": Dynamic State Evolution\n- RWKV vs Mamba: Key Differences\n- Performance Benchmarks on Long-Sequence Tasks\n- Hybrid Architectures \u2014 Combining the Best of Both Worlds\n- The Hybrid Design Philosophy\n- Why Pure SSMs Still Need Attention\n- Jamba \u2014 Transformer + Mamba + MoE\n- Architecture: The Jamba Block\n- Jamba 1.5: Scaling to 398B Parameters\n- Kimi Linear \u2014 Linear Attention at Scale\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n- Kimi Delta Attention (KDA)\n- The 3:1 Hybrid Ratio and NoPE\n- Production Numbers\n- NVIDIA Nemotron-H &amp; Nemotron 3 \u2014 Production Hybrid MoE\n- Nemotron-H Architecture\n- Nemotron 3 Family: LatentMoE + NVFP4 + MTP\n- Routing Trade-offs in Hybrid Architectures\n- The Hybrid Landscape: Zamba, Bamba, and Others\n\nKrish Naik Academy\nPage 19\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n",
+    "nodes": [
+      {
+        "title": "MODULE 13",
+        "node_id": "0026",
+        "page_index": 20,
+        "summary": "## MODULE 13\n",
+        "text": "## MODULE 13\n"
+      }
+    ]
+  },
+  {
+    "title": "Vision Foundations",
+    "node_id": "0027",
+    "page_index": 20,
+    "summary": "This text covers 'Vision Foundations' from Krish Naik Academy's Advanced Route of Learning AI (2025-2026 Cohort, Module 14). It details the transition from CNNs to Vision Transformers (ViT), explaining ViT architecture, image patching, patch embedding, CLS tokens, positional encoding, transformer encoders on visual tokens, and attention maps. It also compares CNNs and ViTs, discusses inductive bias, and introduces pre-trained encoders like CLIP, SigLIP, and DINO/DINOv2, concluding with advice on encoder selection.",
+    "text": "# Vision Foundations\n\nFrom CNNs to Vision Transformers \u2014 ViT architecture, patch embeddings, and pre-trained encoders including CLIP, SigLIP, and DINOv2.\n\nVision Foundations\n\nFrom CNN to Vision Transformer \u2014 The Conceptual Bridge\nViT Architecture Deep Dive\nImage as a Sequence of Patches\nPatch Embedding\nThe CLS Token\nPositional Encoding for 2D Inputs\nTransformer Encoder on Visual Tokens\nAttention Maps \u2014 What ViT Sees\nCNN vs ViT \u2014 Inductive Bias and the Core Tradeoff\nPre-Trained Vision Encoders\nCLIP \u2014 Contrastive Language-Image Pre-training\nSigLIP \u2014 Sigmoid Loss Variant\nDINO / DINOv2 \u2014 Self-Supervised Vision\nChoosing an Encoder\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 14\n"
+  },
+  {
+    "title": "Visual Language Models",
+    "node_id": "0028",
+    "page_index": 21,
+    "summary": "# Visual Language Models\n\nBuild and fine-tune Visual Language Models \u2014 architecture, training, multimodal reasoning, and the production VLM landscape.\n\nVisual Language Models\n\n- What Is a Visual Language Model?\n- The VLM Architecture\n- The Visual Encoder\n- The Aligner / Projector\n- The Language Model Backbone\n- How Vision and Language Are Connected\n- Training VLMs\n- Fine-Tuning VLMs\n- Multimodal Reasoning\n- Beyond Images: Video, Audio, Documents\n- VLM Evaluation\n- Production VLM Landscape (March 2026)\n- Building VLM Applications\n\nKrish Naik Academy\nPage 21\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 15\n",
+    "text": "# Visual Language Models\n\nBuild and fine-tune Visual Language Models \u2014 architecture, training, multimodal reasoning, and the production VLM landscape.\n\nVisual Language Models\n\n- What Is a Visual Language Model?\n- The VLM Architecture\n- The Visual Encoder\n- The Aligner / Projector\n- The Language Model Backbone\n- How Vision and Language Are Connected\n- Training VLMs\n- Fine-Tuning VLMs\n- Multimodal Reasoning\n- Beyond Images: Video, Audio, Documents\n- VLM Evaluation\n- Production VLM Landscape (March 2026)\n- Building VLM Applications\n\nKrish Naik Academy\nPage 21\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 15\n"
+  },
+  {
+    "title": "Stable Diffusion &amp; Diffusion Transformers",
+    "node_id": "0029",
+    "page_index": 22,
+    "prefix_summary": "This text provides a comprehensive overview of diffusion models, starting from foundational concepts like DDPM, the forward and reverse processes, and noise prediction. It delves into Latent Diffusion, explaining the Stable Diffusion architecture, the role of VAEs, U-Nets, text conditioning, CFG, and sampling schedulers, tracing the evolution from SD 1.5 to SDXL. The document then explores Diffusion Transformers, discussing DiT and its advantages, AdaLayerNorm, Rectified Flow, Stable Diffusion 3, and FLUX.1. Finally, it covers fine-tuning and adaptation methods such as LoRA, DreamBooth, ControlNet, and IP-Adapter, along with distillation techniques like LCM and Turbo, all presented within the context of Krish Naik Academy's Advanced Route of Learning AI for the 2025-2026 cohort.",
+    "text": "# Stable Diffusion &amp; Diffusion Transformers\n\nMaster diffusion models from DDPM foundations through Latent Diffusion, Stable Diffusion, DiT, FLUX.1, and fine-tuning with LoRA, DreamBooth, and ControlNet.\n\nStable Diffusion &amp; Diffusion Transformers\n\nThe Generative Vision Problem\nDiffusion Foundations \u2014 DDPM\nThe Forward Process\nThe Reverse Process\nThe Noise Prediction Objective\nDDIM \u2014 Deterministic Sampling\nConnection to Score Matching\nLatent Diffusion \u2014 The Stable Diffusion Architecture\nWhy Latent Space?\nThe VAE: Encoder and Decoder\nThe U-Net Denoising Backbone\nText Conditioning via Cross-Attention\nClassifier-Free Guidance (CFG)\nSampling Schedulers\nSD 1.5  $\\rightarrow$  SDXL: Architecture Evolution\nDiffusion Transformers \u2014 DiT and Beyond\nWhy Replace U-Net with a Transformer?\nDiT: Scalable Diffusion Models with Transformers\nAdaLayerNorm \u2014 Injecting Timestep and Conditioning\nRectified Flow \u2014 Straight Trajectories\nStable Diffusion 3 \u2014 MM-DiT\nFLUX.1 \u2014 The Production Standard (2025-2026)\nFine-Tuning and Adaptation\nLoRA for Diffusion Models\nDreamBooth \u2014 Subject-Driven Generation\nControlNet \u2014 Spatial Conditioning\nIP-Adapter \u2014 Image as Style Prompt\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n- Distillation \u2014 LCM and Turbo\n\nKrish Naik Academy\nPage 23\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n",
+    "nodes": [
+      {
+        "title": "MODULE 16",
+        "node_id": "0030",
+        "page_index": 24,
+        "summary": "## MODULE 16\n",
+        "text": "## MODULE 16\n"
+      }
+    ]
+  },
+  {
+    "title": "Embedding models",
+    "node_id": "0031",
+    "page_index": 24,
+    "summary": "This text covers an advanced taxonomy of embedding models, including dense, sparse, quantized, binary, multi-vector, and Matryoshka embeddings. It details the Russian doll analogy for Matryoshka embeddings, MRL training, and its production use with adaptive retrieval, alongside the storage vs. quality trade-off. The document also extensively discusses embedding fine-tuning strategies, emphasizing triplet data requirements, triplet loss, hard negative mining, Matryoshka fine-tuning, cross-lingual alignment, and CLIP-style multimodal alignment. The content is presented by Krish Naik Academy as part of their Advanced Route of Learning AI for the 2025-2026 cohort, specifically within Module 17.",
+    "text": "# Embedding models\n\nAdvanced embedding taxonomy \u2014 dense, sparse, quantized, binary, multi-vector, and Matryoshka embeddings with fine-tuning strategies.\n\nEmbedding models\n\n- Advanced Embedding Taxonomy\n- Dense Embeddings \u2014 The Baseline\n- Sparse Embeddings \u2014 Lexical Signals Preserved\n- Quantized Embeddings \u2014 Float32 \u2192 Int8 / Uint8\n- Binary Embeddings \u2014 Maximum Compression\n- Multi-Vector Embeddings \u2014 One Document, Many Vectors\n- Matryoshka Embeddings \u2014 Flexible Dimensions at Query Time\n- The Russian doll analogy\n- How MRL training works\n- Using MRL embeddings in production \u2014 adaptive retrieval\n- Storage vs Quality Trade-off\n- Embedding Fine-Tuning Strategies\n- The Training Data Requirement: Triplets\n- Triplet Loss \u2014 The Mathematical Foundation\n- Hard Negative Mining \u2014 The Key to Quality\n- Matryoshka Fine-Tuning\n- Cross-Linguial Alignment\n- CLIP-Style Multimodal Alignment Fine-Tuning\n- Embedding Fine-Tuning\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 17\n"
+  },
+  {
+    "title": "RAG",
+    "node_id": "0032",
+    "page_index": 25,
+    "summary": "The text provides a comprehensive overview of Retrieval Augmented Generation (RAG), covering various aspects from vanilla RAG, embedding models, and chunking strategies to advanced techniques like hybrid, meta-hybrid, self, corrective, adaptive, and agentic RAG. It also details specific retrieval methods such as BM25, SPLADE, and Multi Vector COLBERT, along with RAG evaluations and rerankers. The document further explores vector quantization for scaling (scalar, binary, product quantization) and multi-modal RAG, including paradigms for data parsing, layout detection, OCR, structure layout chunking, and Graph RAG. Finally, it touches upon RAG security and robustness, mentioning securing RAG, and is associated with the Krish Naik Academy's Advanced Route of Learning AI for the 2025-2026 cohort, specifically referencing Module 18.",
+    "text": "# RAG\n\nComprehensive RAG \u2014 from vanilla retrieval through hybrid, agentic, corrective, and multi-modal RAG with vector quantization and security.\n\nRAG\n\n- Vanilla RAG\n- Embedding models\n- Chunking Strategies\n- BM25, SPLADE &amp; Multi Vector COLBERT\n- Hybrid RAG\n- Meta Hybrid RAG\n- Query Transformations\n- RAG Evaluations\n- Rerankers\n- Self RAG\n- Corrective RAG\n- Adaptive RAG\n- Contextual retrieval\n- Agentic RAG\n\n## Vector Quantizations Scaling\n\n- Scalar Quantization\n- Binary Quantization\n- Product Quantization\n\n## Multi-modal RAG\n\n- Colapali Paradigm\n- Single Stage &amp; Dual Stage Data Parsing\n- Layout Detection, OCR Paradigm\n- Structure Layout Chunking\n- Graph RAG\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n- RAG Security &amp; Robustness\n- Securing RAG\n\nKrish Naik Academy\nPage 26\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n### MODULE 18\n"
+  },
+  {
+    "title": "Prompt Engineering vs Context Engineering",
+    "node_id": "0033",
+    "page_index": 27,
+    "prefix_summary": "This text details the shift from Prompt Engineering to Context Engineering, exploring the limitations of prompt-based approaches and introducing context engineering as a paradigm shift. It covers the anatomy of context, its finite nature, the context window, and issues like 'lost in the middle' and tool explosion. The document outlines four memory architectures (In-Context, External, In-Weights, In-Cache) and various context construction strategies including system prompts, selective history, RAG, and tool management. It also delves into context compression techniques like summarization and selective retention, and the role of KV Cache and prompt caching. Finally, it addresses agent context, the 100:1 token ratio problem, the filesystem as infinite context, long context realities, and guidance on when to use prompt versus context engineering, along with prompt repetition.",
+    "text": "# Prompt Engineering vs Context Engineering\n\nThe paradigm shift from prompt engineering to context engineering \u2014 memory architectures, compression techniques, and production strategies for agents.\n\nPrompt Engineering vs Context Engineering\n\n- Prompt Engineering \u2014 What It Is and Where It Caps Out\n- Core Techniques\n- Where Prompt Engineering Fails\n- Context Engineering \u2014 The Paradigm Shift\n- The Anatomy of Context\n- Context as a Finite Resource\n- The Context Window and Attention Reality\n- Lost in the Middle\n- Tool Count and the Explosion Problem\n- Memory Architecture \u2014 Four Types\n- In-Context Memory\n- External Memory\n- In-Weights Memory\n- In-Cache Memory (KV Cache)\n- Context Construction Strategies\n- System Prompt Engineering at the Right Altitude\n- Selective History and Conversation Compression\n- Dynamic RAG-Driven Context\n- Tool Loadout Management\n- Context Compression Techniques\n- Summarization-Based Compression\n- Selective Retention \u2014 What to Keep\n- Recoverable Compression\n- KV Cache as a Context Engineering Lever\n- Prefix Caching Optimization\n- Prompt Caching with Claude and GPT-4o\n- Context Engineering for Agents\n\nKrish Naik Academy\nPage 27\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n- The 100:1 Token Ratio Problem\n- Agent Context Lifecycle\n- The Filesystem as Infinite Context\n- Long Context \u2014 The Million-Token Reality\n- Prompt Engineering vs Context Engineering \u2014 When to Use What\n- Prompt Repition\n\nKrish Naik Academy\nPage 28\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n",
+    "nodes": [
+      {
+        "title": "MODULE 19",
+        "node_id": "0034",
+        "page_index": 29,
+        "summary": "## MODULE 19\n",
+        "text": "## MODULE 19\n"
+      }
+    ]
+  },
+  {
+    "title": "DSPy \u2014 Programmatic LLM Optimization",
+    "node_id": "0035",
+    "page_index": 29,
+    "summary": "The text describes DSPy, a framework for programmatic LLM optimization, covering its core abstractions like signatures and modules, and its various optimizers (BootstrapFewShot, MIPROv2, SIMBA, etc.). It also details how DSPy enables self-optimizing RAG pipelines, the implementation of agents, and the connection between BootstrapFinetune and RL-based fine-tuning. The content is presented as part of Module 20 for the Krish Naik Academy's 2025-2026 Advanced Route of Learning AI cohort.",
+    "text": "# DSPy \u2014 Programmatic LLM Optimization\n\nDSPy programmatic LLM optimization \u2014 signatures, modules, optimizers, self-optimizing RAG pipelines, and the bridge to RL-based fine-tuning.\n\nDSPy \u2014 Programmatic LLM Optimization\n\n- From Prompt Engineering to Programs\n- Core Abstractions \u2014 Signatures and Modules\n- Signatures\n- Modules\n- The LM Configuration\n- Optimizers \u2014 Making the Pipeline Learn\n- BootstrapFewShot\n- BootstrapFewShotWithRandomSearch\n- MIPROv2\n- SIMBA\n- GEPA\n- BetterTogether\n- BootstrapFinetune\n- Choosing the Right Optimizer\n- DSPy + RAG \u2014 Self-Optimizing Retrieval Pipelines\n- Agents in DSPy\n- BootstrapFinetune and the Road to RL\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n## MODULE 20\n"
+  },
+  {
+    "title": "Agents",
+    "node_id": "0036",
+    "page_index": 30,
+    "prefix_summary": "The text covers the development of production AI agents, detailing various frameworks and architectures such as ReAct, MCP, LangGraph, and CrewAI. It explores agent operational loops, comparisons with chains and RAG, internal mechanisms like ReAct's thought-action-observation cycle, plan-execute separation, and reflection. Specific architectures for browser agents, voice pipelines, and computer use APIs are discussed, along with agent failure modes, mitigation strategies (retry, guardrails, HITL), prompt injection defense, and task lifecycles. The document also touches upon UI models (AG-UI, A2UI), model routing, cost optimization, observability, event-driven and cron/webhook agents, coding agents, and evaluation frameworks, all presented within the context of the Krish Naik Academy's Advanced Route of Learning AI for the 2025-2026 cohort.",
+    "text": "# Agents\n\nBuild production AI agents \u2014 ReAct, MCP, LangGraph, CrewAI, browser agents, voice pipelines, A2A protocols, and evaluation frameworks.\n\nAgents\n\n- Agent Loop (Observe \u2192 Reason \u2192 Act)\n- Agents vs Chains vs RAG\n- When to Use Agents vs Not\n- ReAct Internals (Thought/Action/Observation)\n- Plan vs Execute Separation\n- Reflection / Reflexion Mechanisms\n- MCP Architecture &amp; Tool Schema\n- LangGraph State Machines\n- CrewAI Role-Based Systems\n- Orchestrator vs Subagent Design\n- DAG Execution Patterns\n- Browser Agent Architecture (Playwright + Vision)\n- Computer Use APIs (Anthropic / OpenAI CUA)\n- Voice Pipeline (STT \u2192 LLM \u2192 TTS)\n- Agent Failure Modes\n- Retry, Guardrails, HITL\n- Containerized Execution\n- Prompt Injection Defense\n- A2A Task Lifecycle &amp; Agent Cards\n- AG-UI Event Model\n- A2UI Declarative UI\n- Model Routing Strategies\n- Cost Optimization Techniques\n- Observability &amp; Tracing\n- Event-driven vs Reactive Agents\n- Cron / Webhook Agents\n- Coding Agents &amp; SWE-bench\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n- Evaluation Frameworks &amp; Benchmarks\n\nKrish Naik Academy\nPage 31\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n",
+    "nodes": [
+      {
+        "title": "MODULE 21",
+        "node_id": "0037",
+        "page_index": 32,
+        "summary": "## MODULE 21\n",
+        "text": "## MODULE 21\n"
+      }
+    ]
+  },
+  {
+    "title": "RL",
+    "node_id": "0038",
+    "page_index": 32,
+    "summary": "This text provides a comprehensive overview of Reinforcement Learning (RL) applied to Large Language Models (LLMs), covering its foundational concepts, the transition from supervised learning, and its historical development. It delves into key RL algorithms such as Vanilla Policy Gradient, REINFORCE, REINFORCE Leave-One-Out (RLOO), Proximal Policy Optimization (PPO) with its implementation details and limitations, Group Relative Policy Optimization (GRPO), Dynamic Advantage Policy Optimization (DAPO), Group Sequence Policy Optimization (GSPO), and Clipped Importance Sampling Policy Optimization (CISPO). The text also discusses the MDP framework, policy gradients, baselines, actor-critic architectures, Generalized Advantage Estimation (GAE), and the crucial aspects of reward design, including learned and verifiable rewards, reward hacking, and mitigation. Finally, it outlines the practical aspects of RL training, infrastructure, and its integration within a broader AI learning curriculum, highlighting the evolution of RL algorithms for LLMs.",
+    "text": "# RL\n\nReinforcement Learning for LLMs \u2014 from policy gradients through PPO, GRPO, DAPO, GSPO, CISPO, reward design, and the complete RL training stack.\n\nRL\n\n- From Supervised Learning to Reinforcement Learning \u2014 The Bridge\n- The Course So Far \u2014 A Learning Hierarchy\n- The Fundamental Insight \u2014 Learning from Outcomes\n- Where You Have Already Seen RL in This Course\n- Two Paradigms: RLHF vs RLVR\n- The LLM as a Policy\n- Three Core Challenges\n- A Timeline \u2014 How RL Came to LLMs\n- RL Foundations \u2014 The MDP Framework for LLMs\n- States, Actions, Rewards, Policy\n- The Policy Gradient Theorem\n- Why RL Works for Language Models\n- Vanilla Policy Gradient\n- The Core Idea and Derivation\n- High Variance: The Fundamental Problem\n- Baselines \u2014 Reducing Variance Without Bias\n- REINFORCE\n- Algorithm and Implementation\n- REINFORCE for LLMs \u2014 The Token-Level Formulation\n- REINFORCE Leave-One-Out (RLOO)\n- The RLOO Insight\n- RLOO vs REINFORCE\n- Proximal Policy Optimization (PPO)\n- The Motivation: Stable Large Updates\n- The PPO Objective\n- The Actor-Critic Architecture\n- Generalized Advantage Estimation (GAE)\n\nKrish Naik Academy\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n\n- PPO in RLHF \u2014 The Full Four-Model System\n- PPO Implementation with TRL\n- PPO Limitations at Scale\n- Group Relative Policy Optimization (GRPO)\n- Removing the Value Model\n- The Group Sampling Insight\n- The GRPO Objective\n- GRPO in DeepSeek-R1\n- GRPO Implementation\n- Known Biases in GRPO \u2014 Dr. GRPO\n- DAPO \u2014 GRPO at Scale\n- Clip-Higher: Encouraging Exploration\n- Dynamic Sampling\n- Token-Level Policy Gradient Loss\n- Overlong Reward Shaping\n- Group Sequence Policy Optimization (GSPO)\n- The Token vs Sequence Granularity Problem\n- The GSPO Objective\n- GSPO for MoE Models\n- Clipped Importance Sampling Policy Optimization (CISPO)\n- Soft Clipping vs Hard Clipping\n- Asymmetric Clipping Bounds\n- Reward Models and Reward Design\n- Learned Reward Models (RLHF)\n- Rule-Based Verifiable Rewards (RLVR)\n- Reward Hacking and Mitigation\n- The Evolution: PPO \u2192 GRPO \u2192 DAPO \u2192 GSPO\n- Practical RL Training \u2014 Infrastructure and Recipes\n- Connecting RL to the Full Course\n\nKrish Naik Academy\nPage 33\n\nKrish Naik Academy | Advanced Route of Learning AI\n2025-2026 Cohort\n"
+  },
+  {
+    "title": "Programme Summary",
+    "node_id": "0039",
+    "page_index": 34,
+    "summary": "This document provides a programme summary from Krish Naik Academy, detailing 21 modules, 38 sections, and 481 topics. It outlines the core areas covered, including Neural Networks, Transformers, LLMs, VLMs, and Agents, as well as key frameworks like PyTorch, Hugging Face TRL, and DSPy. The delivery method is a combination of live bootcamp and recorded sessions.",
+    "text": "# Programme Summary\n\n|  Total Modules | 21  |\n| --- | --- |\n|  Total Sections | 38  |\n|  Total Topics | 481  |\n|  Core Areas | Neural Networks, Transformers, Tokenization, Fine-Tuning, KV Cache & Attention, Scaling Laws, MoE/MoD, LLM Post-Training, Reasoning Models, SLMs, Knowledge Distillation, Hybrid Architectures, Vision Foundations, VLMs, Diffusion & DiT, Embeddings, RAG, Context Engineering, DSPy, Agents, Reinforcement Learning  |\n|  Key Frameworks | PyTorch, Hugging Face TRL, Unsloth, Axolotl, LLaMA-Factory, LangGraph, CrewAI, DSPy, vLLM, SGLang, distilabel  |\n|  Delivery | Live Bootcamp + Recorded Sessions  |\n|  Provider | Krish Naik Academy  |\n\nKrish Naik Academy\n\nKrish Naik Academy\nPage 34\n"
+  }
+]
