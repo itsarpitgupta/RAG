@@ -218,49 +218,9 @@ $$\begin{array}{|l|c|c|l|}
 
 ## 🖼️ Visual Search Algorithm Architectures
 
-### 1. Approximate Nearest Neighbor Search Algorithms Comparison
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                     VECTOR SEARCH ALGORITHMS COMPARISON                                 │
-│                                                                                         │
-│  1. FLAT EXACT SEARCH (O(N))       2. IVF CLUSTERING (O(N/K))    3. HNSW GRAPH (O(logN))│
-│     Compute distance to all           Compare with centroids        Greedy highway walk │
-│                                                                                         │
-│     [•]───[•]───[•]───[•]               (C1)       (C2)               Layer 2: [•]──[•] │
-│      │     │     │     │                /  \       /  \                         │    │  │
-│     [•]───[•]───[•]───[•]              •    •     •    •              Layer 1: [•]──[•] │
-│      │     │     │     │                \  /       \  /                         │    │  │
-│     [•]───[•]───[•]───[•]               (C3)       (C4)               Layer 0: [•]──[•] │
-│     Exhaustive Brute-Force             Voronoi Cells (k-means)         Multi-layer Skip │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-```
+### Vector Retrieval & Generation Pipeline
 
-### 2. End-to-End Enterprise RAG Pipeline (HuggingFace + Vector Store + Groq)
-```mermaid
-graph TD
-    subgraph 1. Ingestion Phase
-    RawDocs[Documents .txt, PDF, Markdown] --> Splitter[RecursiveCharacterTextSplitter]
-    Splitter --> Chunks[Chunks: 500 chars, 50 overlap]
-    Chunks --> HF[HuggingFace: all-MiniLM-L6-v2]
-    HF --> Embeddings[384-dimensional dense vectors]
-    Embeddings --> VectorDB[(Vector Store: ChromaDB / FAISS / Pinecone / AstraDB)]
-    end
-
-    subgraph 2. Retrieval Phase
-    UserQ[User Question] --> QEmbed[HuggingFace embed_query]
-    QEmbed --> VectorSearch[ANN Search: HNSW / IVF / JVector]
-    VectorDB --> VectorSearch
-    VectorSearch --> TopDocs[Top-K Scored Context Chunks]
-    end
-
-    subgraph 3. Generation Phase
-    TopDocs --> PromptBuilder[Prompt Template: Context + Question]
-    UserQ --> PromptBuilder
-    PromptBuilder --> GroqLLM[Groq LPU LLM: openai/gpt-oss-120b]
-    GroqLLM --> OutputParser[StrOutputParser]
-    OutputParser --> FinalResponse[Grounded Natural Language Answer]
-    end
-```
+![Vector Stores Architecture](workflow_vectorstores.png)
 
 ---
 
