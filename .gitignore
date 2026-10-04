@@ -18,6 +18,8 @@ venv/
 **/.env.*
 !.env.example
 !**/.env.example
+Neo4j-*.txt
+**/Neo4j-*.txt
 
 # Third-party cloned repositories
 VectorlessRAG/PageIndex/

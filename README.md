@@ -34,8 +34,9 @@ Every module follows a unified, deterministic, and production-tested technology 
 | 16 | [`Guardrails/`](Guardrails/) | **Defense-in-Depth AI Guardrails** | `langchain_guardrails_crash_course.ipynb` | Groq `gpt-oss-120b` + MiniLM Vector Guardrail | Yes | Yes | Yes | **Covered** |
 | 17 | [`ChatBotAndRagEvalution/`](ChatBotAndRagEvalution/) | **Chatbot & RAG Triad Evaluation** | `01_chatbot_evaluation.ipynb`, `02_rag_evaluation.ipynb` | Groq `gpt-oss-120b`, `qwen3.8-27b` + MiniLM | Yes (2) | Yes | Yes (2) | **Covered** |
 | 18 | [`GraphDB/`](GraphDB/) | **Knowledge Graphs & Neo4j Hybrid RAG** | `01_neo4j_knowledge_graph_construction.ipynb`, `02_neo4j_graph_rag_and_cypher.ipynb` | Groq `gpt-oss-120b` + Neo4j Aura Cloud + MiniLM | Yes (2) | Yes | Yes (2) | **Covered** |
+| 19 | [`GraphDBWithLLM/`](GraphDBWithLLM/) | **GraphCypherQAChain & Few-Shot Cypher** | `01_graph_cypher_qa_chain.ipynb`, `02_advanced_cypher_prompt_strategies.ipynb` | Groq `gpt-oss-120b` + Neo4j Aura Cloud | Yes (2) | Yes | Yes (2) | **Covered** |
 
-> **Summary**: All 18 core modules across foundational parsing, advanced indexing, agentic decision-making, autonomous cognitive loops, vectorless tree reasoning, multimodal RAG, enterprise LLM gateways, multi-tier guardrails, LLM-as-a-judge evaluation suites, and Neo4j Knowledge Graph RAG have been **100% Covered** with full live execution outputs, custom architecture diagrams, and HTML reports.
+> **Summary**: All 19 core modules across foundational parsing, advanced indexing, agentic decision-making, autonomous cognitive loops, vectorless tree reasoning, multimodal RAG, enterprise LLM gateways, multi-tier guardrails, LLM-as-a-judge evaluation suites, Neo4j Knowledge Graph RAG, and GraphCypherQAChain question-answering engines have been **100% Covered** with full live execution outputs, custom architecture diagrams, and HTML reports.
 
 
 ---
@@ -250,6 +251,25 @@ Every module follows a unified, deterministic, and production-tested technology 
   - Notebooks: [`01_neo4j_knowledge_graph_construction.ipynb`](GraphDB/01_neo4j_knowledge_graph_construction.ipynb), [`02_neo4j_graph_rag_and_cypher.ipynb`](GraphDB/02_neo4j_graph_rag_and_cypher.ipynb)
   - Interactive HTML: [`01_neo4j_knowledge_graph_construction.html`](GraphDB/01_neo4j_knowledge_graph_construction.html), [`02_neo4j_graph_rag_and_cypher.html`](GraphDB/02_neo4j_graph_rag_and_cypher.html)
   - Architecture Diagrams: [`workflow_neo4j_knowledge_graph.png`](GraphDB/workflow_neo4j_knowledge_graph.png), [`workflow_graph_rag_and_cypher.png`](GraphDB/workflow_graph_rag_and_cypher.png)
+
+---
+
+### 18. Question Answering over Graph Databases with LLMs ([`GraphDBWithLLM/`](GraphDBWithLLM/))
+- **Concept**: Translating natural language questions into executable Cypher queries against Neo4j property graphs using LangChain and Groq:
+  - **GraphCypherQAChain Pipeline** (`01_graph_cypher_qa_chain.ipynb`):
+    - Ingests heterogeneous real-world datasets into **Neo4j Aura Cloud**: The Movies Knowledge Graph (Movies, Actors, Directors, Genres) and a Social Network Graph (Users, Posts, FRIEND, LIKES).
+    - Modern `langchain_neo4j.GraphCypherQAChain` powered by Groq `openai/gpt-oss-120b`.
+    - Handles direct entity lookups ("Who directed Casino?"), multi-entity queries ("Who were the actors of Casino?"), numerical aggregations ("How many movies has Tom Hanks acted in?"), multi-hop social queries, and network centrality questions.
+    - Transparent intermediate step inspection: extracts and audits the generated Cypher query, raw database records, and synthesized answer.
+  - **Advanced Cypher Prompt Strategies & Self-Correction** (`02_advanced_cypher_prompt_strategies.ipynb`):
+    - Overcomes the failure modes of zero-shot Cypher generation: schema hallucinations (guessing non-existent labels like `:Artist`), case-sensitivity mismatches, and multi-stage `WITH` aggregations.
+    - Dynamically formats exemplar question-Cypher pairs using LangChain's `FewShotPromptTemplate` conditioned on the live Neo4j schema.
+    - Automated query syntax validator with a self-correction feedback loop catching database errors and rewriting queries.
+    - Empirical benchmark comparing Zero-Shot vs Few-Shot Cypher generation across 4 complex queries with a detailed performance scorecard.
+- **Artifacts**:
+  - Notebooks: [`01_graph_cypher_qa_chain.ipynb`](GraphDBWithLLM/01_graph_cypher_qa_chain.ipynb), [`02_advanced_cypher_prompt_strategies.ipynb`](GraphDBWithLLM/02_advanced_cypher_prompt_strategies.ipynb)
+  - Interactive HTML: [`01_graph_cypher_qa_chain.html`](GraphDBWithLLM/01_graph_cypher_qa_chain.html), [`02_advanced_cypher_prompt_strategies.html`](GraphDBWithLLM/02_advanced_cypher_prompt_strategies.html)
+  - Architecture Diagrams: [`workflow_graph_cypher_qa.png`](GraphDBWithLLM/workflow_graph_cypher_qa.png), [`workflow_fewshot_cypher_prompting.png`](GraphDBWithLLM/workflow_fewshot_cypher_prompting.png)
 
 ---
 
