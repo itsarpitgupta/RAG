@@ -177,7 +177,7 @@ PDF was designed for high-fidelity visual rendering and printing—not machine r
 The diagram below illustrates the path from raw, unparsed enterprise documents through parsing and splitting into vectorized storage:
 
 <div align="center">
-  <img src="rag-architecture-diagram.svg" alt="RAG Architecture Ingestion Phase" width="100%" />
+  <img src="../images/rag-architecture-diagram.svg" alt="RAG Architecture Ingestion Phase" width="100%" />
 </div>
 
 ---
@@ -186,7 +186,7 @@ The diagram below illustrates the path from raw, unparsed enterprise documents t
 The diagram below details how file loaders transform raw unstructured files into normalized `Document(page_content, metadata)` objects:
 
 <div align="center">
-  <img src="1-langchain-document-components.svg" alt="LangChain Document Structure and Components" width="100%" />
+  <img src="../images/1-langchain-document-components.svg" alt="LangChain Document Structure and Components" width="100%" />
 </div>
 
 ---

@@ -17,3 +17,7 @@ langchain-core
 rank-bm25
 langchain-huggingface
 langchain-classic
+fastapi
+langserve
+uvicorn
+sse_starlette

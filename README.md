@@ -49,7 +49,7 @@ Every module follows a unified, deterministic, and production-tested technology 
 - **Artifacts**:
   - Notebook: [`cache_augment_generation.ipynb`](CAG/cache_augment_generation.ipynb)
   - Interactive HTML: [`cache_augment_generation.html`](CAG/cache_augment_generation.html)
-  - Diagram: [`workflow_architecture.png`](CAG/workflow_architecture.png)
+  - Diagram: [`workflow_architecture.png`](images/workflow_cag.png)
 
 ---
 
@@ -61,7 +61,7 @@ Every module follows a unified, deterministic, and production-tested technology 
   - Notebook: [`adaptive_rag.ipynb`](AdaptiveRAG/adaptive_rag.ipynb)
   - Standalone Script: [`adaptive_rag.py`](AdaptiveRAG/adaptive_rag.py)
   - Interactive HTML: [`adaptive_rag.html`](AdaptiveRAG/adaptive_rag.html)
-  - Diagram: [`workflow_architecture.png`](AdaptiveRAG/workflow_architecture.png)
+  - Diagram: [`workflow_architecture.png`](images/workflow_adaptive_rag.png)
 
 ---
 
@@ -70,7 +70,7 @@ Every module follows a unified, deterministic, and production-tested technology 
 - **Artifacts**:
   - Notebook: [`corrective_rag.ipynb`](CorrectiveRAG/corrective_rag.ipynb)
   - Interactive HTML: [`corrective_rag.html`](CorrectiveRAG/corrective_rag.html)
-  - Diagram: [`workflow_architecture.png`](CorrectiveRAG/workflow_architecture.png)
+  - Diagram: [`workflow_architecture.png`](images/workflow_corrective_rag.png)
 
 ---
 
@@ -90,7 +90,7 @@ Every module follows a unified, deterministic, and production-tested technology 
 - **Artifacts**:
   - Notebook: [`ragmemory.ipynb`](PersistentMemoryRAG/ragmemory.ipynb)
   - Interactive HTML: [`ragmemory.html`](PersistentMemoryRAG/ragmemory.html)
-  - Diagram: [`workflow_architecture.png`](PersistentMemoryRAG/workflow_architecture.png)
+  - Diagram: [`workflow_architecture.png`](images/workflow_persistent_memory.png)
 
 ---
 
@@ -136,7 +136,7 @@ Every module follows a unified, deterministic, and production-tested technology 
 - **Artifacts**:
   - Notebook: [`1-multimodalopenai.ipynb`](MultimodalRAG/1-multimodalopenai.ipynb)
   - Interactive HTML: [`1-multimodalopenai.html`](MultimodalRAG/1-multimodalopenai.html)
-  - Diagram: [`workflow_multimodal_rag.png`](MultimodalRAG/workflow_multimodal_rag.png)
+  - Diagram: [`workflow_multimodal_rag.png`](images/workflow_multimodal_rag.png)
 
 ---
 
@@ -144,7 +144,7 @@ Every module follows a unified, deterministic, and production-tested technology 
 - **Concept**: Practical guide to vector indexing, semantic search mechanics, and database persistence:
   - `faisstest.ipynb`: FAISS in-memory index creation, L2/cosine similarity comparison, threshold scoring, metadata filtering, and LCEL RAG chains with Groq `openai/gpt-oss-120b`.
   - `charomadb.ipynb`: ChromaDB persistent HNSW indexing, SQLite metadata storage, and modern retrieval QA chains.
-- **Artifacts**: 2 fully executed notebooks, matching `.html` reports, and architecture diagram [`workflow_vectorstores.png`](VectorStoresAndEmbeddings/workflow_vectorstores.png).
+- **Artifacts**: 2 fully executed notebooks, matching `.html` reports, and architecture diagram [`workflow_vectorstores.png`](images/workflow_vectorstores.png).
 
 ---
 
@@ -178,7 +178,7 @@ Every module follows a unified, deterministic, and production-tested technology 
 - **Artifacts**:
   - Notebook: [`PageIndex_Vectorless_RAG_CrashCourse+(1).ipynb`](VectorlessRAG/PageIndex_Vectorless_RAG_CrashCourse+(1).ipynb)
   - Interactive HTML: [`PageIndex_Vectorless_RAG_CrashCourse+(1).html`](VectorlessRAG/PageIndex_Vectorless_RAG_CrashCourse+(1).html)
-  - Architecture Diagram: [`workflow_vectorless_rag.png`](VectorlessRAG/workflow_vectorless_rag.png)
+  - Architecture Diagram: [`workflow_vectorless_rag.png`](images/workflow_vectorless_rag.png)
   - Tree Index Cache: [`pageindex_tree_cache.json`](VectorlessRAG/pageindex_tree_cache.json)
 
 ---
@@ -195,7 +195,7 @@ Every module follows a unified, deterministic, and production-tested technology 
 - **Artifacts**:
   - Notebook: [`llm_gateway_tutorial.ipynb`](LLMGateways/llm_gateway_tutorial.ipynb)
   - Interactive HTML: [`llm_gateway_tutorial.html`](LLMGateways/llm_gateway_tutorial.html)
-  - Architecture Diagram: [`workflow_llm_gateways.png`](LLMGateways/workflow_llm_gateways.png)
+  - Architecture Diagram: [`workflow_llm_gateways.png`](images/workflow_llm_gateways.png)
 
 ---
 
@@ -210,7 +210,7 @@ Every module follows a unified, deterministic, and production-tested technology 
 - **Artifacts**:
   - Notebook: [`langchain_guardrails_crash_course.ipynb`](Guardrails/langchain_guardrails_crash_course.ipynb)
   - Interactive HTML: [`langchain_guardrails_crash_course.html`](Guardrails/langchain_guardrails_crash_course.html)
-  - Architecture Diagram: [`workflow_guardrails.png`](Guardrails/workflow_guardrails.png)
+  - Architecture Diagram: [`workflow_guardrails.png`](images/workflow_guardrails.png)
 
 ---
 
@@ -229,7 +229,7 @@ Every module follows a unified, deterministic, and production-tested technology 
 - **Artifacts**:
   - Notebooks: [`01_chatbot_evaluation.ipynb`](ChatBotAndRagEvalution/01_chatbot_evaluation.ipynb), [`02_rag_evaluation.ipynb`](ChatBotAndRagEvalution/02_rag_evaluation.ipynb)
   - Interactive HTML: [`01_chatbot_evaluation.html`](ChatBotAndRagEvalution/01_chatbot_evaluation.html), [`02_rag_evaluation.html`](ChatBotAndRagEvalution/02_rag_evaluation.html)
-  - Architecture Diagrams: [`workflow_chatbot_evaluation.png`](ChatBotAndRagEvalution/workflow_chatbot_evaluation.png), [`workflow_rag_evaluation.png`](ChatBotAndRagEvalution/workflow_rag_evaluation.png)
+  - Architecture Diagrams: [`workflow_chatbot_evaluation.png`](images/workflow_chatbot_evaluation.png), [`workflow_rag_evaluation.png`](images/workflow_rag_evaluation.png)
 
 ---
 
@@ -250,7 +250,7 @@ Every module follows a unified, deterministic, and production-tested technology 
 - **Artifacts**:
   - Notebooks: [`01_neo4j_knowledge_graph_construction.ipynb`](GraphDB/01_neo4j_knowledge_graph_construction.ipynb), [`02_neo4j_graph_rag_and_cypher.ipynb`](GraphDB/02_neo4j_graph_rag_and_cypher.ipynb)
   - Interactive HTML: [`01_neo4j_knowledge_graph_construction.html`](GraphDB/01_neo4j_knowledge_graph_construction.html), [`02_neo4j_graph_rag_and_cypher.html`](GraphDB/02_neo4j_graph_rag_and_cypher.html)
-  - Architecture Diagrams: [`workflow_neo4j_knowledge_graph.png`](GraphDB/workflow_neo4j_knowledge_graph.png), [`workflow_graph_rag_and_cypher.png`](GraphDB/workflow_graph_rag_and_cypher.png)
+  - Architecture Diagrams: [`workflow_neo4j_knowledge_graph.png`](images/workflow_neo4j_knowledge_graph.png), [`workflow_graph_rag_and_cypher.png`](images/workflow_graph_rag_and_cypher.png)
 
 ---
 
@@ -269,7 +269,7 @@ Every module follows a unified, deterministic, and production-tested technology 
 - **Artifacts**:
   - Notebooks: [`01_graph_cypher_qa_chain.ipynb`](GraphDBWithLLM/01_graph_cypher_qa_chain.ipynb), [`02_advanced_cypher_prompt_strategies.ipynb`](GraphDBWithLLM/02_advanced_cypher_prompt_strategies.ipynb)
   - Interactive HTML: [`01_graph_cypher_qa_chain.html`](GraphDBWithLLM/01_graph_cypher_qa_chain.html), [`02_advanced_cypher_prompt_strategies.html`](GraphDBWithLLM/02_advanced_cypher_prompt_strategies.html)
-  - Architecture Diagrams: [`workflow_graph_cypher_qa.png`](GraphDBWithLLM/workflow_graph_cypher_qa.png), [`workflow_fewshot_cypher_prompting.png`](GraphDBWithLLM/workflow_fewshot_cypher_prompting.png)
+  - Architecture Diagrams: [`workflow_graph_cypher_qa.png`](images/workflow_graph_cypher_qa.png), [`workflow_fewshot_cypher_prompting.png`](images/workflow_fewshot_cypher_prompting.png)
 
 ---
 

@@ -152,7 +152,7 @@ In standard embeddings, truncating dimensions destroys semantic signal. In MRL, 
 The diagram below details the end-to-end vector embedding generation lifecycle, from raw text subwords through self-attention, pooling, L2 hypersphere normalization, and high-dimensional cosine similarity ranking:
 
 <div align="center">
-  <img src="workflow_embeddings.svg" alt="Dense Vector Embeddings and Semantic Search Architecture Diagram" width="100%" />
+  <img src="../images/workflow_embeddings.svg" alt="Dense Vector Embeddings and Semantic Search Architecture Diagram" width="100%" />
 </div>
 
 ---

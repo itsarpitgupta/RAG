@@ -220,7 +220,7 @@ $$\begin{array}{|l|c|c|l|}
 
 ### Vector Retrieval & Generation Pipeline
 
-![Vector Stores Architecture](workflow_vectorstores.png)
+![Vector Stores Architecture](../images/workflow_vectorstores.png)
 
 ---
 
