@@ -35,11 +35,18 @@ os.environ["LANGCHAIN_PROJECT"] = langsmith_proj
 class State(TypedDict):
     messages: Annotated[list[BaseMessage], add_messages]
 
-# Initialize Groq model
-llm = ChatGroq(
-    model="qwen/qwen3.8-27b",
-    temperature=0.7,
-)
+# Centralized LLM configuration with automatic multi-model fallbacks
+import sys
+from pathlib import Path
+
+for p in [Path.cwd(), Path.cwd().parent, Path.cwd().parent.parent]:
+    if (p / "llm_config.py").exists() and str(p) not in sys.path:
+        sys.path.insert(0, str(p))
+
+from llm_config import get_llm, list_free_models
+
+# Initialize unified model with zero-downtime automatic fallback
+llm = get_llm(temperature=0.7)
 model = llm
 
 def make_default_graph():
