@@ -9,6 +9,7 @@ Every module follows a unified, deterministic, and production-tested technology 
 - **Orchestration**: LangGraph `StateGraph`, `MessagesState`, `MemorySaver`, and `create_react_agent`.
 - **Vector Storage**: FAISS (In-Memory Euclidean / Cosine) and ChromaDB (Persistent HNSW + SQLite).
 - **Visuals & Reports**: Custom colorful Mermaid architecture workflows, exported diagrams, and self-contained interactive HTML companion reports with full live outputs.
+- **Design Patterns Reference**: Comprehensive architectural deep-dive across Modules 9–15 available in [RAG_DESIGN_PATTERNS_GUIDE.md](file:///c:/RAG/Code/RAG_DESIGN_PATTERNS_GUIDE.md).
 
 ---
 

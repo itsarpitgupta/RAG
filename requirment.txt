@@ -21,3 +21,9 @@ fastapi
 langserve
 uvicorn
 sse_starlette
+langgraph-supervisor
+scikit-learn
+tavily-python
+pymupdf
+langchain-experimental
+langchain_tavily
